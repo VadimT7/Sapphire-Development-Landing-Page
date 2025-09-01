@@ -4,9 +4,9 @@
   "private": true,
   "author": "Premium Presence",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build --turbopack",
+    "start": "node init && next start",
     "lint": "eslint",
     "outreach:gen": "ts-node --compiler-options '{\"module\":\"commonjs\"}' outreach/generate.ts"
   },
