@@ -4,10 +4,10 @@
   "private": true,
   "author": "Sapphire Development",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "build:turbo": "next build --turbopack",
-    "start": "next start",
+    "dev": "node init && next dev --turbopack",
+    "build": "node init && next build",
+    "build:turbo": "node init && next build --turbopack",
+    "start": "node init && next start",
     "lint": "eslint",
     "outreach:gen": "ts-node --compiler-options '{\"module\":\"commonjs\"}' outreach/generate.ts"
   },
